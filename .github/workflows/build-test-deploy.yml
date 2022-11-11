@@ -1,0 +1,10 @@
+name: CI/CD
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-test-deploy-release:
+    name: CI/CD
+    uses: austenstone/.github/.github/workflows/angular.yml@main
